@@ -1,25 +1,6 @@
-Gulp Quick Start
+Basic platformer game made by Leo
 ----------------
 
-Quick start for frontend development. 
+##Issues
 
-- Uses node sass (quick)
-- Bourbon scss library
-- Browerify for modular javascrpit
-- Debowerify to inlcude bower modules
-- Coffeeify for coffee support
-- Browser sync 
-
-##Installation
-
-```bash
-npm install && bower install
-```
-
-To open up a local server and watch files
-
-```bash
-gulp watch
-```
-
-
+If you spot any problems and want to submit a pull request go ahead! Using this project to learn and improve so all assistance is welcome.
