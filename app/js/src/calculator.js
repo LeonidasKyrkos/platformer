@@ -1,3 +1,5 @@
 function Calculator() {
-	this.calculate();
-}
+	this.calculator = {};
+};
+
+module.exports = Calculator;

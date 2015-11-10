@@ -1,10 +1,15 @@
 function World() {
-	this.init();
+	this.settings();
+	this.initialiseWorld();
 };
 
 World.prototype = {
-	init: function(){
-		console.log('hello world');
+	settings: function(){
+		this.worldspace = document.getElementById('world');
+		this.gravity = 9.8;
+	},
+	initialiseWorld: function(){
+		console.log(this.settings);
 	}
 }
 

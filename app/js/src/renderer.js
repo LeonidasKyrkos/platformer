@@ -6,13 +6,12 @@ function Renderer() {
 Renderer.prototype = {
 	settings: function() {
 		this.fps = 60;
-		this.gravity = 9.8;
 	},
 	render: function() {
-		this.createCanvas();
+		this.refreshCanvas();
 	},
-	createCanvas: function() {
-		console.log('i make the canvas do stuff');
+	refreshCanvas: function() {
+		console.log('i refresh the canvas do stuff');
 	}
 }
 
